@@ -3,10 +3,10 @@ local Proxy = module('vrp','lib/Proxy')
 vRP = Proxy.getInterface('vRP')
 
 --settings-
-DISCORD_URL = "" --your own webhook--
-discordbotname = "Helper" --The username of the bot who sends the message to your discord
-permission = "police.drag" -- the permission you want to be able to access this command
-license = "driver" -- this is the license it wants to check for/ must be set up in groups.lua
+local DISCORD_URL = "" --your own webhook--
+local discordbotname = "Helper" --The username of the bot who sends the message to your discord
+local permission = "police.drag" -- the permission you want to be able to access this command
+local license = "driver" -- this is the license it wants to check for/ must be set up in groups.lua
 
 
 
